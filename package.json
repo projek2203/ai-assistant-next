@@ -1,17 +1,1 @@
-{
-  "name": "ai-assistant",
-  "version": "1.0.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
-  },
-  "dependencies": {
-    "next": "14.0.0",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "tailwindcss": "3.3.3",
-    "@monaco-editor/react": "4.6.0"
-  }
-}
+{"name": "ai-assistant-pro-full", "version": "1.0.0", "private": True, "scripts": {"dev": "next dev -p 3000", "build": "next build", "start": "next start -p 3000"}, "dependencies": {"next": "14.0.0", "react": "18.2.0", "react-dom": "18.2.0", "tailwindcss": "3.5.0", "autoprefixer": "10.4.14", "postcss": "8.4.24", "@monaco-editor/react": "4.6.0", "lucide-react": "0.276.0", "framer-motion": "10.12.16"}}
