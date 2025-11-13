@@ -1,5 +1,5 @@
 "use client";
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef } from "react";
 export default function AIAssistant(){
   const [model, setModel] = useState('gpt-4o-mini');
   const [messages, setMessages] = useState([{role:'assistant', content:'Hai! Saya siap membantu.'}]);
